@@ -16,11 +16,7 @@ public class CalculatorService {
     @GET
     @Path("ping")
     @Produces(MediaType.TEXT_PLAIN)
-    public String ping() throws IOException{
-        		File tempDir;
-		tempDir = File.createTempFile("", ".");
-        tempDir.delete();
-       tempDir.mkdir();  // Noncompliant
+    public String ping(){
 
         return "Welcome to Java Maven Calculator Web App!!!\n" + new Date().toString();
     }
@@ -51,5 +47,18 @@ public class CalculatorService {
     @Produces(MediaType.APPLICATION_JSON)
     public CalculatorResponse Div(@QueryParam("x") int x, @QueryParam("y") int y) {
         return new CalculatorResponse(x, y, x / y);
+    }
+
+    public void test(){
+        try{
+      		File tempDir;
+		    tempDir = File.createTempFile("", ".");
+            tempDir.delete();
+            tempDir.mkdir();  // Noncompliant
+        }catch (Exception e){
+            
+        }
+
+
     }
 }
