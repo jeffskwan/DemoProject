@@ -1,0 +1,317 @@
+{
+  "id": "d5efb816-2cb9-4038-8ce2-bfe7a5fb2437",
+  "version": "2.0",
+  "name": "CalculatorProject",
+  "url": "https://www.google.com/search?q=online+calculator&rlz=1C1CHBF_enSG891SG891&oq=online+calcu&aqs=chrome.0.0j69i57j0l6.1873j0j7&sourceid=chrome&ie=UTF-8",
+  "tests": [{
+    "id": "a50fa3a3-33ce-4cd2-b6dc-2d41837b076d",
+    "name": "Addition",
+    "commands": [{
+      "id": "eae080c1-a690-47d7-afb0-ea8109487036",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/search?q=online+calculator&rlz=1C1CHBF_enSG891SG891&oq=online+calcu&aqs=chrome.0.0j69i57j0l6.1873j0j7&sourceid=chrome&ie=UTF-8",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "bbc49a31-989c-4ab4-9844-7dc12cd8e763",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1756x966",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6caeaea3-3942-477a-af37-d936a359d3e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4) > td:nth-child(1) > .A2W7l > .XRsWPe",
+      "targets": [
+        ["css=tr:nth-child(4) > td:nth-child(1) > .A2W7l > .XRsWPe", "css:finder"],
+        ["xpath=//div[@id='cwmcwd']/div/div/div[3]/div/table[2]/tbody/tr[4]/td/div/div", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr[4]/td/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a35aedc1-2070-45c4-af3f-0f38680fbe0f",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(5) .mF5fo > .MEdqYd",
+      "targets": [
+        ["css=tr:nth-child(5) .mF5fo > .MEdqYd", "css:finder"],
+        ["xpath=//div[@id='cwmcwd']/div/div/div[3]/div/table[2]/tbody/tr[5]/td[4]/div/div", "xpath:idRelative"],
+        ["xpath=//tr[5]/td[4]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e86c488-22fd-4314-b8a5-51c5b118593a",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4) > td:nth-child(2) > .A2W7l > .XRsWPe",
+      "targets": [
+        ["css=tr:nth-child(4) > td:nth-child(2) > .A2W7l > .XRsWPe", "css:finder"],
+        ["xpath=//div[@id='cwmcwd']/div/div/div[3]/div/table[2]/tbody/tr[4]/td[2]/div/div", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr[4]/td[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0bf80608-bcd2-489c-8af5-a10c1131a8f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.UUhRt",
+      "targets": [
+        ["css=.UUhRt", "css:finder"],
+        ["xpath=//div[@id='cwmcwd']/div/div/div[3]/div/table[2]/tbody/tr[5]/td[3]/div/div", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr[5]/td[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c598ee32-71d0-4951-978d-e0a3e7ef2ff0",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "95b1d056-b526-4a27-ac5a-32adfecc45d0",
+    "name": "Subtraction",
+    "commands": [{
+      "id": "f70ae90f-f85b-48e0-a3fd-4127e0a14761",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/search?q=online+calculator&rlz=1C1CHBF_enSG891SG891&oq=online+calcu&aqs=chrome.0.0j69i57j0l6.1873j0j7&sourceid=chrome&ie=UTF-8",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "09eaedef-8411-44fb-9cce-dc0929466666",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1756x966",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9225eb5c-a704-4809-921a-307a4e5f92d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4) > td:nth-child(2) > .A2W7l > .XRsWPe",
+      "targets": [
+        ["css=tr:nth-child(4) > td:nth-child(2) > .A2W7l > .XRsWPe", "css:finder"],
+        ["xpath=//div[@id='cwmcwd']/div/div/div[3]/div/table[2]/tbody/tr[4]/td[2]/div/div", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr[4]/td[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c84ed3e2-c711-4997-b9ea-233f1f602449",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4) .mF5fo > .XRsWPe",
+      "targets": [
+        ["css=tr:nth-child(4) .mF5fo > .XRsWPe", "css:finder"],
+        ["xpath=//div[@id='cwmcwd']/div/div/div[3]/div/table[2]/tbody/tr[4]/td[4]/div/div", "xpath:idRelative"],
+        ["xpath=//tr[4]/td[4]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77d9c7c8-63f8-4d1b-b6e0-e67f122541d8",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4) > td:nth-child(1) > .A2W7l > .XRsWPe",
+      "targets": [
+        ["css=tr:nth-child(4) > td:nth-child(1) > .A2W7l > .XRsWPe", "css:finder"],
+        ["xpath=//div[@id='cwmcwd']/div/div/div[3]/div/table[2]/tbody/tr[4]/td/div/div", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr[4]/td/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "128506f4-f9a7-48c2-a209-854834e5917c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.UUhRt",
+      "targets": [
+        ["css=.UUhRt", "css:finder"],
+        ["xpath=//div[@id='cwmcwd']/div/div/div[3]/div/table[2]/tbody/tr[5]/td[3]/div/div", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr[5]/td[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "514692c0-5d17-4d9e-944d-90a433d94642",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "f634bb98-82ee-4735-96ad-368f3948bb30",
+    "name": "Multiplication",
+    "commands": [{
+      "id": "d0c0be48-8ea0-4e47-b0ec-5fa24a907527",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/search?q=online+calculator&rlz=1C1CHBF_enSG891SG891&oq=online+calcu&aqs=chrome.0.0j69i57j0l6.1873j0j7&sourceid=chrome&ie=UTF-8",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "62ddf870-1061-468a-951c-c96c6549cfb3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1756x966",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d4924297-2b94-458d-b5f6-194604ee775f",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4) > td:nth-child(2) > .A2W7l > .XRsWPe",
+      "targets": [
+        ["css=tr:nth-child(4) > td:nth-child(2) > .A2W7l > .XRsWPe", "css:finder"],
+        ["xpath=//div[@id='cwmcwd']/div/div/div[3]/div/table[2]/tbody/tr[4]/td[2]/div/div", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr[4]/td[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee1a2d64-84ba-43c5-a510-39b134c42144",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(3) .mF5fo > .XRsWPe",
+      "targets": [
+        ["css=tr:nth-child(3) .mF5fo > .XRsWPe", "css:finder"],
+        ["xpath=//div[@id='cwmcwd']/div/div/div[3]/div/table[2]/tbody/tr[3]/td[4]/div/div", "xpath:idRelative"],
+        ["xpath=//tr[3]/td[4]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9d3efb0c-5fe7-400e-b3ff-4e2c3ce242d6",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4) > td:nth-child(2) > .A2W7l > .XRsWPe",
+      "targets": [
+        ["css=tr:nth-child(4) > td:nth-child(2) > .A2W7l > .XRsWPe", "css:finder"],
+        ["xpath=//div[@id='cwmcwd']/div/div/div[3]/div/table[2]/tbody/tr[4]/td[2]/div/div", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr[4]/td[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "803f7794-6534-4d80-9729-bfbb0a8408aa",
+      "comment": "",
+      "command": "click",
+      "target": "css=.UUhRt",
+      "targets": [
+        ["css=.UUhRt", "css:finder"],
+        ["xpath=//div[@id='cwmcwd']/div/div/div[3]/div/table[2]/tbody/tr[5]/td[3]/div/div", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr[5]/td[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "cf79eb54-da2c-4b07-9bbf-45b9563777ec",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.gb_D",
+      "targets": [
+        ["css=.gb_D", "css:finder"],
+        ["xpath=//div[@id='gbwa']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.google.com.sg/intl/en/about/products?tab=wh')]", "xpath:href"],
+        ["xpath=//div/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "213d6bfb-2a6c-4621-b105-cbf8b0d5bfc5",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.gb_D",
+      "targets": [
+        ["css=.gb_D", "css:finder"],
+        ["xpath=//div[@id='gbwa']/div/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'https://www.google.com.sg/intl/en/about/products?tab=wh')]", "xpath:href"],
+        ["xpath=//div/div/div/div/div/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "53780224-ce23-4863-975e-8713b811fbf8",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "13e4d4d4-41a5-4b85-9028-2136b1f1804d",
+    "name": "Division",
+    "commands": [{
+      "id": "da31d8dc-ee0f-44a0-89c9-006c3d671abb",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.google.com/search?q=online+calculator&rlz=1C1CHBF_enSG891SG891&oq=online+calcu&aqs=chrome.0.0j69i57j0l6.1873j0j7&sourceid=chrome&ie=UTF-8",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "39d6ba9f-0d4c-4ea9-95e1-ebbc72f74027",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1756x966",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8fbf0d69-5b5c-44fe-91bf-1a07722b5d6b",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(3) > td:nth-child(3) > .A2W7l > .XRsWPe",
+      "targets": [
+        ["css=tr:nth-child(3) > td:nth-child(3) > .A2W7l > .XRsWPe", "css:finder"],
+        ["xpath=//div[@id='cwmcwd']/div/div/div[3]/div/table[2]/tbody/tr[3]/td[3]/div/div", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr[3]/td[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b3898ee4-4e9a-49ff-87dc-0aa32c1fbace",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(2) .mF5fo > .XRsWPe",
+      "targets": [
+        ["css=tr:nth-child(2) .mF5fo > .XRsWPe", "css:finder"],
+        ["xpath=//div[@id='cwmcwd']/div/div/div[3]/div/table[2]/tbody/tr[2]/td[4]/div/div", "xpath:idRelative"],
+        ["xpath=//tr[2]/td[4]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48e720d8-f756-4ab3-819c-1882e91d742d",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(4) > td:nth-child(2) > .A2W7l > .XRsWPe",
+      "targets": [
+        ["css=tr:nth-child(4) > td:nth-child(2) > .A2W7l > .XRsWPe", "css:finder"],
+        ["xpath=//div[@id='cwmcwd']/div/div/div[3]/div/table[2]/tbody/tr[4]/td[2]/div/div", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr[4]/td[2]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "72b20ff8-a7d8-4831-9134-4621bcd4b1e1",
+      "comment": "",
+      "command": "click",
+      "target": "css=.UUhRt",
+      "targets": [
+        ["css=.UUhRt", "css:finder"],
+        ["xpath=//div[@id='cwmcwd']/div/div/div[3]/div/table[2]/tbody/tr[5]/td[3]/div/div", "xpath:idRelative"],
+        ["xpath=//table[2]/tbody/tr[5]/td[3]/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2f1b9a2a-c0c6-4af7-8291-d78a545df71b",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2c38b018-3dcb-4427-bd53-27f77c16c476",
+    "name": "Calculator",
+    "persistSession": false,
+    "parallel": true,
+    "timeout": 300,
+    "tests": ["a50fa3a3-33ce-4cd2-b6dc-2d41837b076d", "13e4d4d4-41a5-4b85-9028-2136b1f1804d", "f634bb98-82ee-4735-96ad-368f3948bb30", "95b1d056-b526-4a27-ac5a-32adfecc45d0"]
+  }],
+  "urls": ["https://web2.0calc.com/", "https://www.google.com/search?q=online+calculator&rlz=1C1CHBF_enSG891SG891&oq=online+calcu&aqs=chrome.0.0j69i57j0l6.1873j0j7&sourceid=chrome&ie=UTF-8"],
+  "plugins": []
+}

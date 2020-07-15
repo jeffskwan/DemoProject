@@ -9,11 +9,18 @@
     <description>A Java Maven Calculator Web Application Writen By Java, Built By Maven, CI/CD By Jenkins</description>
     <url>http://maven.apache.org</url>
 
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <jersey-version>2.27</jersey-version>
+        <sonar.projectKey>springboot7_icbc</sonar.projectKey>
+        <sonar.organization>springboot7</sonar.organization>
+        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+        <sonar.login>11edadf57addd53ad9a44cd98b04544363ef83a1</sonar.login>
+        <sonar.junit.reportPath>target/surefire-reports</sonar.junit.reportPath>
+        <sonar.flex.cobertura.reportPaths>target\site\cobertura</sonar.flex.cobertura.reportPaths>
     </properties>
 
     <scm>
@@ -80,6 +87,38 @@
         <finalName>calculator</finalName>
 
         <plugins>
+             <plugin>
+    <groupId>org.jacoco</groupId>
+    <artifactId>jacoco-maven-plugin</artifactId>
+    <version>0.8.4</version>
+    <executions>
+      <execution>
+        <id>prepare-agent</id>
+        <goals>
+         <goal>prepare-agent</goal>
+        </goals>
+      </execution>
+      <execution>
+        <id>report</id>
+        <goals>
+         <goal>report</goal>
+        </goals>
+      </execution>
+    </executions>
+    </plugin>
+           <plugin>
+      <groupId>org.jacoco</groupId>
+      <artifactId>jacoco-maven-plugin</artifactId>
+      <executions>
+        <execution>
+          <id>report</id>
+          <goals>
+            <goal>report-aggregate</goal>
+          </goals>
+          <phase>verify</phase>
+        </execution>
+      </executions>
+    </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
@@ -178,11 +217,11 @@
                 <configuration>
                     <container>
                         <containerId>tomcat8x</containerId>
-                        <home>/Users/maping/apache/tomcat</home>
+                        <home>C:\apache-tomcat-8.5.56</home>
                     </container>
                     <configuration>
                         <type>existing</type>
-                        <home>/Users/maping/apache/tomcat</home>
+                        <home>C:\apache-tomcat-8.5.56</home>
                     </configuration>
                 </configuration>
             </plugin>

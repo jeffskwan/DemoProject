@@ -6,6 +6,9 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
 import java.util.Date;
+import java.io.File;
+import java.io.IOException;
+
 
 @Path("/calculator")
 public class CalculatorService {
@@ -13,7 +16,12 @@ public class CalculatorService {
     @GET
     @Path("ping")
     @Produces(MediaType.TEXT_PLAIN)
-    public String ping() {
+    public String ping() throws IOException{
+        		File tempDir;
+		tempDir = File.createTempFile("", ".");
+        tempDir.delete();
+       tempDir.mkdir();  // Noncompliant
+
         return "Welcome to Java Maven Calculator Web App!!!\n" + new Date().toString();
     }
 
