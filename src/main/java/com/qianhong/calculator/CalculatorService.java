@@ -6,8 +6,8 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.QueryParam;
 import javax.ws.rs.core.MediaType;
 import java.util.Date;
-import java.io.File;
-import java.io.IOException;
+//import java.io.File;
+//import java.io.IOException;
 
 
 @Path("/calculator")
@@ -49,7 +49,7 @@ public class CalculatorService {
         return new CalculatorResponse(x, y, x / y);
     }
 
-    public void test(){
+    /*public void test(){
         try{
       		File tempDir;
 		    tempDir = File.createTempFile("", ".");
@@ -60,5 +60,5 @@ public class CalculatorService {
         }
 
 
-    }
+    }*/
 }
