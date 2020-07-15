@@ -15,10 +15,11 @@
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
         <jersey-version>2.27</jersey-version>
-        <sonar.projectKey>springboot7_icbc</sonar.projectKey>
-        <sonar.organization>springboot7</sonar.organization>
-        <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-        <sonar.login>11edadf57addd53ad9a44cd98b04544363ef83a1</sonar.login>
+        <properties>
+  <sonar.projectKey>springboot7_demoshowcase</sonar.projectKey>
+  <sonar.organization>springboot7</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+  <sonar.login>eed47f082e83f2fbcc39088907f5a1f3eef09cf1</sonar.login>
         <sonar.junit.reportPath>target/surefire-reports</sonar.junit.reportPath>
         <sonar.flex.cobertura.reportPaths>target\site\cobertura</sonar.flex.cobertura.reportPaths>
     </properties>
