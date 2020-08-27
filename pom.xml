@@ -18,7 +18,6 @@
   <sonar.projectKey>jeffskwan_DemoProject</sonar.projectKey>
   <sonar.organization>pwcdemo</sonar.organization>
   <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-        <sonar.login>eed47f082e83f2fbcc39088907f5a1f3eef09cf1</sonar.login>
         <sonar.junit.reportPath>target/surefire-reports</sonar.junit.reportPath>
         <sonar.flex.cobertura.reportPaths>target\site\cobertura</sonar.flex.cobertura.reportPaths>
     </properties>
