@@ -2,7 +2,7 @@
 A Java calculator web app, build by Maven, CI/CD by Jenkins.
 
 ![image](realworld-pipeline-flow.png)
-
+ 
 ## 1. Manualy Build, Test, and Deploy By Maven
 
 ### 1.1 Start Nexus (Optional)
