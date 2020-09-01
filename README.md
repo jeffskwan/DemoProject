@@ -30,7 +30,7 @@ $ mvn clean package -Dmaven.test.skip=true
 [INFO] ------------------------------------------------------------------------
 ```
 >Explain: -DskipTests, not execute test case, but compile test case; -Dmaven.test.skip=true，not compile test case, neither execute test case.
- 
+  
 >Attention: Due to China GFW, you may fail when you build this project. Try it outside China GFW.
   
 ### 1.3  Run Locally
