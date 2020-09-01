@@ -55,7 +55,7 @@ By default, the jetty port is 9999, so you should visit following urls in browse
 To run in a different port, `mvn jetty:run -Djetty.port=<Your-Port>`.
 
 To debug locally, `set MAVEN_OPTS=-Xdebug -Xrunjdwp:transport=dt_socket,server=y,address=8000,suspend=n`, then `mvn jetty:run`.
-
+ 
 To stop Jetty Server, press Control-C.
 
 ### 1.4 Run JUnit Test
