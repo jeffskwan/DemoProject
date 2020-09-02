@@ -1,0 +1,292 @@
+{
+	"info": {
+		"_postman_id": "92326e66-5b70-4031-9314-e728c779a23a",
+		"name": "Test Web Calculator",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Accessbility Test",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "e5ba355c-94ec-4896-98fd-96fffc446f42",
+						"exec": [
+							"pm.test(\"Test whether can access API\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://52.148.80.150:8080/calculator/api/calculator/ping",
+					"protocol": "http",
+					"host": [
+						"52",
+						"148",
+						"80",
+						"150"
+					],
+					"port": "8080",
+					"path": [
+						"calculator",
+						"api",
+						"calculator",
+						"ping"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test Add in calculator",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "86b7b33a-9086-4985-b73e-e368a8cd2aeb",
+						"exec": [
+							"pm.test(\"Test ADD in calculator\", function () {\r",
+							"    var jsondata = pm.response.json();\r",
+							"    pm.expect(jsondata.result).to.eql(34)\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://20.184.25.92:8080/calculator/api/calculator/add?x=8&y=26",
+					"protocol": "http",
+					"host": [
+						"20",
+						"184",
+						"25",
+						"92"
+					],
+					"port": "8080",
+					"path": [
+						"calculator",
+						"api",
+						"calculator",
+						"add"
+					],
+					"query": [
+						{
+							"key": "x",
+							"value": "8"
+						},
+						{
+							"key": "y",
+							"value": "26"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test Sub in calculator",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "3dd387a0-6ed1-46b0-8a76-acf0739f5987",
+						"exec": [
+							"pm.test(\"Test Sub in calculator\", function () {\r",
+							"    var jsondata = pm.response.json();\r",
+							"    pm.expect(jsondata.result).to.eql(4)\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://20.184.25.92:8080/calculator/api/calculator/sub?x=12&y=8",
+					"protocol": "http",
+					"host": [
+						"20",
+						"184",
+						"25",
+						"92"
+					],
+					"port": "8080",
+					"path": [
+						"calculator",
+						"api",
+						"calculator",
+						"sub"
+					],
+					"query": [
+						{
+							"key": "x",
+							"value": "12"
+						},
+						{
+							"key": "y",
+							"value": "8"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test Mul in calculator",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "9cc58291-fc38-4e66-be90-a60f1fe7818a",
+						"exec": [
+							"pm.test(\"Test Mul in calculator\", function () {\r",
+							"    var jsondata = pm.response.json();\r",
+							"    pm.expect(jsondata.result).to.eql(88)\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://20.184.25.92:8080/calculator/api/calculator/mul?x=11&y=8",
+					"protocol": "http",
+					"host": [
+						"20",
+						"184",
+						"25",
+						"92"
+					],
+					"port": "8080",
+					"path": [
+						"calculator",
+						"api",
+						"calculator",
+						"mul"
+					],
+					"query": [
+						{
+							"key": "x",
+							"value": "11"
+						},
+						{
+							"key": "y",
+							"value": "8"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test Div in calculator",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "c9351c14-ced9-4ec1-bd2d-b18651d1a304",
+						"exec": [
+							"pm.test(\"Test Div in calculator\", function () {\r",
+							"    var jsondata = pm.response.json();\r",
+							"    pm.expect(jsondata.result).to.eql(1)\r",
+							"});\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://20.184.25.92:8080/calculator/api/calculator/div?x=12&y=12",
+					"protocol": "http",
+					"host": [
+						"20",
+						"184",
+						"25",
+						"92"
+					],
+					"port": "8080",
+					"path": [
+						"calculator",
+						"api",
+						"calculator",
+						"div"
+					],
+					"query": [
+						{
+							"key": "x",
+							"value": "12"
+						},
+						{
+							"key": "y",
+							"value": "12"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test Welcome message",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "cd25f804-b311-4ab0-a614-4db2aba60b63",
+						"exec": [
+							"pm.test(\"Test whether Welcome message is correct\", function () {\r",
+							"    pm.expect(pm.response.text()).to.include(\"Welcome to Java Maven Calculator Web App!!!\");\r",
+							"});"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://20.184.25.92:8080/calculator/api/calculator/ping",
+					"protocol": "http",
+					"host": [
+						"20",
+						"184",
+						"25",
+						"92"
+					],
+					"port": "8080",
+					"path": [
+						"calculator",
+						"api",
+						"calculator",
+						"ping"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
