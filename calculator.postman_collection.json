@@ -25,7 +25,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://52.148.80.150:8080/calculator/api/calculator/ping",
+					"raw": "http://20.184.25.92:8080/calculator/api/calculator/ping",
 					"protocol": "http",
 					"host": [
 						"52",
