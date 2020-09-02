@@ -9,7 +9,7 @@ A Java calculator web app, build by Maven, CI/CD by Jenkins.
 ```console
 $ cd ~/sonatype/nexus/bin
 $ ./nexus start 
-```
+``` 
 Visit http://localhost:8081/ with admin/admin123.
   
 ### 1.2 Build
