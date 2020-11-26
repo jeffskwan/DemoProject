@@ -48,6 +48,5 @@ node {
                         ${tool('Octo CLI')}/Octo deploy-release --project "Demo-Project" --version latest --deployto SIT --server http://13.75.170.128/ --apiKey API-L9UYJQIPAHYK9EDRAC8D4EP2A10
                     """
                 }
-}}
 }
 
