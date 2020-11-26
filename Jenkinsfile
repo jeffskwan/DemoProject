@@ -52,10 +52,10 @@ node {
                 */
               stage ('Deploy to Octopus') {
                     sh """
-                       Octo pack --id="Demo-Project" --format="zip" --version="1.0.0.${currentBuild.number}" --basePath="/target" --outFolder="/tmp"
-                       Octo push --package tmp/Demo-Project.1.0.0.${currentBuild.number}.zip --replace-existing --server http://13.75.170.128/ --apiKey API-L9UYJQIPAHYK9EDRAC8D4EP2A10
-                       Octo create-release --project "Demo-Project" --server http://13.75.170.128/ --apiKey API-L9UYJQIPAHYK9EDRAC8D4EP2A10
-                       Octo deploy-release --project "Demo-Project" --version latest --deployto SIT --server http://13.75.170.128/ --apiKey API-L9UYJQIPAHYK9EDRAC8D4EP2A10
+                       octo pack --id="Demo-Project" --format="zip" --version="1.0.0.${currentBuild.number}" --basePath="/target" --outFolder="/tmp"
+                       octo push --package tmp/Demo-Project.1.0.0.${currentBuild.number}.zip --replace-existing --server http://13.75.170.128/ --apiKey API-L9UYJQIPAHYK9EDRAC8D4EP2A10
+                       octo create-release --project "Demo-Project" --server http://13.75.170.128/ --apiKey API-L9UYJQIPAHYK9EDRAC8D4EP2A10
+                       octo deploy-release --project "Demo-Project" --version latest --deployto SIT --server http://13.75.170.128/ --apiKey API-L9UYJQIPAHYK9EDRAC8D4EP2A10
                     """
                 }
 }
