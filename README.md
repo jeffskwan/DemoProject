@@ -1,7 +1,3 @@
-update for demo
-
-update in readme
-
 # A Java Maven Calculator Web App
 A Java calculator web app, build by Maven, CI/CD by Jenkins.
 
